@@ -26,7 +26,7 @@ let timer = setInterval(() => {
 }, 1000);
 
 window.onscroll = function () {
-  if (window.scrollY > skillsSection.offsetTop + 500) {
+  if (window.scrollY > skillsSection.offsetTop + 100) {
     spans.forEach((span) => {
       span.style.width = span.dataset.progress;
     });
